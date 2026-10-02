@@ -1,0 +1,1113 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="AI-powered personal opportunity discovery agent">
+
+    <title>Opportunity Agent | AI Opportunity Discovery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     NAVIGATION
+========================================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <span>✦</span>
+
+        Opportunity Agent
+
+    </div>
+
+
+    <div class="nav-links">
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#profile">
+            Discover
+        </a>
+
+        <a href="#how-it-works">
+            How It Works
+        </a>
+
+    </div>
+
+</nav>
+
+
+
+
+<!-- =========================================
+     HERO SECTION
+========================================= -->
+
+<section class="hero" id="home">
+    <!-- Floating background opportunity cards -->
+<div class="floating-opportunity-cards">
+
+    <div class="floating-card floating-card-1">
+        <span>🤖</span>
+        <small>AI Opportunity</small>
+    </div>
+
+    <div class="floating-card floating-card-2">
+        <span>💼</span>
+        <small>Internship</small>
+    </div>
+
+    <div class="floating-card floating-card-3">
+        <span>🚀</span>
+        <small>Hackathon</small>
+    </div>
+
+    <div class="floating-card floating-card-4">
+        <span>🎓</span>
+        <small>Course</small>
+    </div>
+
+    <div class="floating-card floating-card-5">
+        <span>🏆</span>
+        <small>Scholarship</small>
+    </div>
+
+</div>
+
+    <div class="hero-content">
+
+
+        <!-- AI STATUS -->
+
+        <div class="badge">
+
+            <span>✦</span>
+
+            AI AGENT ONLINE
+
+        </div>
+
+
+
+
+        <!-- MAIN HEADING -->
+
+        <h1>
+
+            Find opportunities
+
+            <span>
+
+                made for you.
+
+            </span>
+
+        </h1>
+
+
+
+
+        <p>
+
+            Your personal AI opportunity agent searches
+
+            the live web, understands your profile,
+
+            and discovers internships, hackathons,
+
+            scholarships and more that match your goals.
+
+        </p>
+
+
+
+
+        <!-- BUTTON -->
+
+        <a href="#profile"
+           class="hero-btn">
+
+            Start Discovering
+
+            <span>→</span>
+
+        </a>
+
+
+
+
+        <!-- SMALL TRUST TEXT -->
+
+        <div style="
+            margin-top:25px;
+            color:#686777;
+            font-size:11px;
+        ">
+
+            🔎 Live web discovery &nbsp; • &nbsp;
+
+            🧠 AI-powered matching &nbsp; • &nbsp;
+
+            🎯 Personalized results
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =========================================
+     PROFILE SECTION
+========================================= -->
+
+<section class="profile-section"
+         id="profile">
+
+
+    <div class="section-heading">
+
+        <p class="small-title">
+
+            PERSONALIZED DISCOVERY
+
+        </p>
+
+
+        <h2>
+
+            Tell the agent about
+
+            <span>
+
+                yourself.
+
+            </span>
+
+        </h2>
+
+
+        <p>
+
+            Your profile helps the agent understand
+
+            what opportunities are relevant to you.
+
+        </p>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- PROFILE CARD -->
+
+    <div class="profile-card">
+
+
+        <!-- AGENT STATUS -->
+
+        <div style="
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-bottom:30px;
+            padding-bottom:20px;
+            border-bottom:1px solid rgba(255,255,255,0.07);
+        ">
+
+            <div>
+
+                <div style="
+                    color:#ffffff;
+                    font-size:15px;
+                    font-weight:700;
+                ">
+
+                    🤖 Your Opportunity Profile
+
+                </div>
+
+
+                <div style="
+                    color:#777687;
+                    font-size:11px;
+                    margin-top:6px;
+                ">
+
+                    Give the agent enough information
+
+                    to find relevant opportunities.
+
+                </div>
+
+            </div>
+
+
+            <div style="
+                padding:7px 11px;
+                border-radius:20px;
+                background:rgba(39,200,130,0.08);
+                border:1px solid rgba(39,200,130,0.2);
+                color:#55d99e;
+                font-size:10px;
+                font-weight:700;
+            ">
+
+                ● READY
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- FORM -->
+
+        <form id="opportunityForm">
+
+
+            <!-- NAME + LOCATION -->
+
+            <div class="input-row">
+
+
+                <div class="input-group">
+
+                    <label for="name">
+
+                        👤 Your Name
+
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+
+
+                <div class="input-group">
+
+                    <label for="location">
+
+                        📍 Preferred Location
+
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="Hyderabad / Remote"
+                        required
+                    >
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <!-- SKILLS -->
+
+            <div class="input-group">
+
+                <label for="skills">
+
+                    💻 Your Skills
+
+                </label>
+
+
+                <input
+                    type="text"
+                    id="skills"
+                    placeholder="Python, Java, SQL, HTML..."
+                    required
+                >
+
+
+                <small>
+
+                    Separate multiple skills with commas.
+
+                </small>
+
+            </div>
+
+
+
+
+
+            <!-- INTEREST -->
+
+            <div class="input-group">
+
+                <label for="interests">
+
+                    🎯 Areas of Interest
+
+                </label>
+
+
+                <input
+                    type="text"
+                    id="interests"
+                    placeholder="AI/ML, Web Development, Cybersecurity..."
+                    required
+                >
+
+            </div>
+
+
+
+
+
+            <!-- EXPERIENCE + TYPE -->
+
+            <div class="input-row">
+
+
+                <div class="input-group">
+
+                    <label for="experience">
+
+                        📈 Experience Level
+
+                    </label>
+
+
+                    <select id="experience">
+
+                        <option value="Beginner">
+
+                            Beginner
+
+                        </option>
+
+
+                        <option value="Intermediate">
+
+                            Intermediate
+
+                        </option>
+
+
+                        <option value="Advanced">
+
+                            Advanced
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <label for="type">
+
+                        🔎 What are you looking for?
+
+                    </label>
+
+
+                    <select id="type">
+
+                        <!-- NEW OPTION -->
+
+                        <option value="All">
+
+                            🌐 All Opportunities
+
+                        </option>
+
+
+                        <option value="Internships">
+
+                            💼 Internships
+
+                        </option>
+
+
+                        <option value="Hackathons">
+
+                            ⚡ Hackathons
+
+                        </option>
+
+
+                        <option value="Scholarships">
+
+                            🎓 Scholarships
+
+                        </option>
+
+
+                        <option value="Courses">
+
+                            📚 Courses
+
+                        </option>
+
+
+                        <option value="Jobs">
+
+                            🚀 Jobs
+
+                        </option>
+                        <option value="Part-time Jobs">⏰Part-time Jobs</option>
+
+                    </select>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <!-- SEARCH BUTTON -->
+
+            <button
+                type="submit"
+                class="search-btn">
+
+                <span>
+
+                    ✦
+
+                </span>
+
+                Find My Opportunities
+
+                <span>
+
+                    →
+
+                </span>
+
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =========================================
+     RESULTS SECTION
+========================================= -->
+
+<section class="results-section"
+         id="results">
+
+
+    <div class="results-heading">
+
+
+        <div>
+
+            <p class="small-title">
+
+                AI DISCOVERY
+
+            </p>
+
+
+            <h2>
+
+                Opportunities for
+
+                <span id="userName">
+
+                    You
+
+                </span>
+
+            </h2>
+
+        </div>
+
+
+
+
+        <div class="result-info">
+
+            🔎 LIVE WEB SEARCH
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- AGENT SEARCH STATUS -->
+
+    <div style="
+        max-width:1100px;
+        margin:0 auto 30px;
+        padding:18px 20px;
+        border-radius:12px;
+        background:rgba(114,87,255,0.06);
+        border:1px solid rgba(114,87,255,0.15);
+        color:#9290a2;
+        font-size:12px;
+    ">
+
+        <span style="color:#947fff;">
+
+            ●
+
+        </span>
+
+        Your AI agent will search the web and
+
+        analyze opportunities based on your profile.
+
+    </div>
+
+
+
+
+
+    <!-- RESULTS -->
+
+    <div
+        id="opportunityResults"
+        class="results-grid">
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- =========================================
+     HOW IT WORKS
+========================================= -->
+
+<section class="about-section"
+         id="how-it-works">
+
+
+    <div class="about-content">
+
+
+        <p class="small-title">
+
+            HOW YOUR AGENT WORKS
+
+        </p>
+
+
+        <h2>
+
+            From your profile
+
+            <span>
+
+                to opportunity.
+
+            </span>
+
+        </h2>
+
+
+
+
+        <p style="
+            max-width:600px;
+            margin:0 auto;
+            color:#777687;
+            font-size:14px;
+            line-height:1.7;
+        ">
+
+            The agent combines live web search
+
+            with AI-powered analysis to discover
+
+            opportunities relevant to you.
+
+        </p>
+
+
+
+
+
+        <!-- STEPS -->
+
+        <div class="steps">
+
+
+            <!-- STEP 1 -->
+
+            <div class="step">
+
+                <div class="step-number">
+
+                    01
+
+                </div>
+
+
+                <div style="
+                    font-size:28px;
+                    margin-bottom:18px;
+                ">
+
+                    👤
+
+                </div>
+
+
+                <h3>
+
+                    Build your profile
+
+                </h3>
+
+
+                <p>
+
+                    Tell the agent your skills,
+
+                    interests, location and
+
+                    experience level.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <!-- STEP 2 -->
+
+            <div class="step">
+
+                <div class="step-number">
+
+                    02
+
+                </div>
+
+
+                <div style="
+                    font-size:28px;
+                    margin-bottom:18px;
+                ">
+
+                    🔎
+
+                </div>
+
+
+                <h3>
+
+                    Search the live web
+
+                </h3>
+
+
+                <p>
+
+                    The agent searches current
+
+                    web information to discover
+
+                    relevant opportunities.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <!-- STEP 3 -->
+
+            <div class="step">
+
+                <div class="step-number">
+
+                    03
+
+                </div>
+
+
+                <div style="
+                    font-size:28px;
+                    margin-bottom:18px;
+                ">
+
+                    🧠
+
+                </div>
+
+
+                <h3>
+
+                    AI matches you
+
+                </h3>
+
+
+                <p>
+
+                    AI analyzes the results
+
+                    and identifies opportunities
+
+                    that fit your profile.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =========================================
+     FEATURE SECTION
+========================================= -->
+
+<section style="
+    padding:90px 8%;
+    background:
+    radial-gradient(
+        circle at 15% 25%,
+        rgba(34, 211, 238, 0.12),
+        transparent 22%
+    ),
+    radial-gradient(
+        circle at 85% 75%,
+        rgba(20, 184, 166, 0.10),
+        transparent 24%
+    ),
+    linear-gradient(
+        rgba(34, 211, 238, 0.025) 1px,
+        transparent 1px
+    ),
+    linear-gradient(
+        90deg,
+        rgba(34, 211, 238, 0.025) 1px,
+        transparent 1px
+    ),
+    linear-gradient(
+        135deg,
+        #07111f,
+        #081b2b,
+        #07111f
+    );
+
+background-size:
+    auto,
+    auto,
+    45px 45px,
+    45px 45px,
+    auto;
+
+background-position:
+    center,
+    center,
+    center,
+    center,
+    center;
+    ">
+
+
+    <div style="
+        max-width:1100px;
+        margin:auto;
+    ">
+
+
+        <div style="
+            text-align:center;
+            margin-bottom:50px;
+        ">
+
+            <p class="small-title">
+
+                WHY OPPORTUNITY AGENT
+
+            </p>
+
+
+            <h2 style="
+                font-size:42px;
+                letter-spacing:-2px;
+            ">
+
+                More than just
+
+                <span style="
+                    color:#947fff;
+                ">
+
+                    search.
+
+                </span>
+
+            </h2>
+
+        </div>
+
+
+
+
+
+        <div style="
+            display:grid;
+            grid-template-columns:
+                repeat(3,1fr);
+            gap:20px;
+        ">
+
+
+            <!-- FEATURE -->
+
+            <div class="step">
+
+                <div style="
+                    font-size:30px;
+                    margin-bottom:20px;
+                ">
+
+                    ⚡
+
+                </div>
+
+
+                <h3>
+
+                    Live Information
+
+                </h3>
+
+
+                <p>
+
+                    Discover current opportunities
+
+                    instead of relying only on
+
+                    old stored information.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <!-- FEATURE -->
+
+            <div class="step">
+
+                <div style="
+                    font-size:30px;
+                    margin-bottom:20px;
+                ">
+
+                    🎯
+
+                </div>
+
+
+                <h3>
+
+                    Personalized Matching
+
+                </h3>
+
+
+                <p>
+
+                    Results are analyzed according
+
+                    to your skills, interests,
+
+                    experience and location.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <!-- FEATURE -->
+
+            <div class="step">
+
+                <div style="
+                    font-size:30px;
+                    margin-bottom:20px;
+                ">
+
+                    💡
+
+                </div>
+
+
+                <h3>
+
+                    AI Insights
+
+                </h3>
+
+
+                <p>
+
+                    Understand why an opportunity
+
+                    matches you instead of simply
+
+                    receiving a list of links.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+
+    <div class="logo">
+
+        <span>
+
+            ✦
+
+        </span>
+
+        Opportunity Agent
+
+    </div>
+
+
+    <p>
+
+        AI-powered opportunity discovery
+
+        &nbsp; • &nbsp;
+
+        Built for the SerpApi Hackathon
+
+    </p>
+
+
+</footer>
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
